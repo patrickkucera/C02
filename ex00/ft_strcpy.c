@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 00:10:39 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 00:11:44 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	main(void)
 	char	dest[255] = "lasdoadsdas";
 	char	src[255] = "sourci";
 	
-	printf("Avant test = %s\n", dest);
+	//printf("Avant test = %s\n", dest);
 	ft_strcpy(dest, src);
-	printf("Apres test = %s\n", dest);
+	//printf("Apres test = %s\n", dest);
 }
