@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 08:06:56 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 08:34:09 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,14 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
+
+/*int	main(void)
+{
+	char	a;
+	char	b;
+
+	a = "abcd";
+	b = "zyxw";
+	ft_strncpy(a, b, 3);
+	return (0);
+}*/
