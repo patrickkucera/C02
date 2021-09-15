@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
+/*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 12:01:07 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 12:07:03 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_numeric(char *str)
+int	ft_str_is_lowercase(char *str)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] >= '0' && str[i] <= '9')
+	while (str[i] >= 'a' && str[i] <= 'z')
 	{
 		i++;
 	}
-	if (str[i] == '\0')
+	if (str[i] != '\0')
 	{
 		return (1);
 	}
