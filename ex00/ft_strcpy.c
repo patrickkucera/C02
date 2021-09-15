@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 07:59:41 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 08:24:40 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,11 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-/*int	main(void)
+/* int	main(void)
 {
 	char	test1[256] = "asdf";
-	printf("%s", ft_strcpy(test1, "qwerty\n"));
-	printf("%s", ft_strcpy(test1, ""));
-	printf("%s", ft_strcpy(test1, "hell0\n"));
-}*/
+	char	test2[256] = "bsde";
+	ft_strcpy(test1, test2);
+	
+	return (0);
+} */
