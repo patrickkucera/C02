@@ -6,9 +6,11 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 12:01:07 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 17:51:25 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {
@@ -19,6 +21,7 @@ int	ft_str_is_numeric(char *str)
 	{
 		i++;
 	}
+	printf("%c", ft_str_is_numeric(str));
 	if (str[i] == '\0')
 	{
 		return (1);
@@ -27,4 +30,14 @@ int	ft_str_is_numeric(char *str)
 	{
 		return (0);
 	}
+	printf("%c", ft_str_is_numeric(str));
+}
+
+int	main(void)
+{
+	int	str;
+
+	str = '5';
+	printf("%c", ft_str_is_numeric(str));
+	return (0);
 }
