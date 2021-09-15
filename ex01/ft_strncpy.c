@@ -6,11 +6,11 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 10:14:41 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 11:01:42 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
