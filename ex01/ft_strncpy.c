@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 08:05:03 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 08:06:56 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	while (i < n)
 	{
-		dest[i] != '\0';
+		dest[i] |= '\0';
 		i++;
 	}
 	return (dest);
