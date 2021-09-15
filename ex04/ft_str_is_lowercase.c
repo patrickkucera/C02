@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 12:19:34 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 12:25:15 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_str_is_lowercase(char *str)
 	{
 		i++;
 	}
-	if (str[i] != '\0')
+	if (str[i] == '\0')
 	{
 		return (1);
 	}
