@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 10:49:10 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 11:30:53 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,27 +14,20 @@
 
 int	ft_str_is_alpha(char *str)
 {
-	int	i;
+	unsigned int	i;
 
 	i = 0;
 	while (str[i])
 	{
-		if (str[i] < 'a' && str[i] > 'z' || str[i] < 'A' && str[i] > 'Z')
-		{
-			return (0);
-			printf("imprimer avant return 1 :%s", str);
-		}
-		else
-		{
-			return (1);
-		}
+		if	(str[i] >= 'a' && str[i] <= 'z' || str[i] >= 'A' && str[i] <= 'Z') i++;
+		else return (0);
 	}
+	return (1);
 }
 
-/* int main(void)
+/*int main(void)
 {
 	char str[] = "abcd";
-	printf("Doit retourner 1 : %s\n", ft_str_is_alpha);
-	ft_str_is_alpha(str);
+	ft_str_is_alpha("%s,", str);
 	return (0);
-} */
+}*/
