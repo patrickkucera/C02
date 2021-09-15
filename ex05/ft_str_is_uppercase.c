@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 12:40:34 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/15 12:42:57 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ int	ft_str_is_uppercase(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i] >= 'A' || str[i] <= 'Z')
+	while (str[i] >= 'A' && str[i] <= 'Z')
 	{
 		i++;
 	}
