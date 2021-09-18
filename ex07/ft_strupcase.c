@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 18:18:57 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 18:22:17 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strupcase(char *str)
 	i = 0;
 	while (str[i] == '\0')
 	{
-		if (str >= 'a' && str <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] -= 32;
 		}
