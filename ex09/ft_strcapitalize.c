@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 19:28:02 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 21:01:27 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 21:05:24 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,5 @@ char	*ft_strcapitalize(char *str)
 	printf("%s", ft_strcapitalize(str));
 	char str2[] = "asdf-qWeRtY ZXCV 100TIS";
 	printf("%s", ft_strcapitalize(str2));
-	//==== check -e ====
-	//$expected = "Asdf Qwerty Zxcv 100tis\nAsdf-Qwerty Zxcv 100tis";
 }
 */
