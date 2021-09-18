@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 19:28:02 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 20:56:31 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 21:01:27 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,24 +57,11 @@ char	*ft_strcapitalize(char *str)
 
 /*int	main(void)
 {
-	char str1[] = "Bonjour Comment";	
-	char str2[] = "42lausanne {lausanne";
-	char str3[] = "abcddgfdkjk;jkrejh";
-	char str4[] = "Murilo Dutra Alvesz";
-
-	printf("str1: %s\n", str1);
-	printf("str2: %s\n", str2);
-	printf("str3: %s\n", str3);
-	printf("str4: %s\n", str4);
-	ft_strcapitalize(str1);
-	ft_strcapitalize(str2);
-	ft_strcapitalize(str3);
-	ft_strcapitalize(str4);
-	printf("\n");
-	printf("str1: %s\n", str1);
-	printf("str2: %s\n", str2);
-	printf("str3: %s\n", str3); 
-	printf("str4: %s\n", str4);
-	return (0);
+	char str[] = "asdf qWeRtY ZXCV 100TIS\n";
+	printf("%s", ft_strcapitalize(str));
+	char str2[] = "asdf-qWeRtY ZXCV 100TIS";
+	printf("%s", ft_strcapitalize(str2));
+	//==== check -e ====
+	//$expected = "Asdf Qwerty Zxcv 100tis\nAsdf-Qwerty Zxcv 100tis";
 }
 */
