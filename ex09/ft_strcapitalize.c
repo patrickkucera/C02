@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 19:28:02 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 22:00:52 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 22:34:38 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ char	*ft_strcapitalize(char *str)
 	return (str);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char str[] = "asdf qWeRtY ZXCV 100TIS\n";
 	printf("%s", ft_strcapitalize(str));
@@ -63,3 +63,4 @@ int	main(void)
 	printf("%s", ft_strcapitalize(str2));
 
 }
+*/
