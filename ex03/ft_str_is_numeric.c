@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/15 17:51:25 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 18:20:10 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,11 @@ int	ft_str_is_numeric(char *str)
 	printf("%c", ft_str_is_numeric(str));
 }
 
-int	main(void)
+/*int	main(void)
 {
 	int	str;
 
 	str = '5';
 	printf("%c", ft_str_is_numeric(str));
 	return (0);
-}
+}*/
