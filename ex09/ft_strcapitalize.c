@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 19:28:02 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 20:46:37 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 20:47:35 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char	*ft_strcapitalize(char *str)
 	return (str);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char str1[] = "Bonjour Comment";	
 	char str2[] = "42lausanne lausanne";
@@ -75,3 +75,4 @@ int	main(void)
 	printf("str4: %s\n", str4);
 	return (0);
 }
+*/
