@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 18:30:06 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 18:32:31 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ char	*ft_strupcase(char *str)
 		{
 			str[i] -= 32;
 		}
+		i++;
 	}
 	return (str);
 }
