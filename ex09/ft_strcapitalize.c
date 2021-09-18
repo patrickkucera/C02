@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 19:28:02 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 20:47:35 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/18 20:56:31 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,8 @@ char	*ft_strcapitalize(char *str)
 		}
 		else if (str[i] >= '0' && str[i] <= '9')
 			start = 0;
+		else if (str[i] >= 96 && str[i] <= 122)
+			start = 0;
 		else
 			start = 1;
 		i++;
@@ -56,7 +58,7 @@ char	*ft_strcapitalize(char *str)
 /*int	main(void)
 {
 	char str1[] = "Bonjour Comment";	
-	char str2[] = "42lausanne lausanne";
+	char str2[] = "42lausanne {lausanne";
 	char str3[] = "abcddgfdkjk;jkrejh";
 	char str4[] = "Murilo Dutra Alvesz";
 
