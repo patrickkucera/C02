@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 22:13:55 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/19 01:30:26 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/19 01:31:15 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,11 @@ int	ft_str_is_uppercase(char *str)
 	}
 }
 
-int	main(int argc, char *argv[])
+/* int	main(int argc, char *argv[])
 {
 	(void) argc;
 	if (argc == 2)
 		printf("%d", ft_str_is_uppercase(argv[1]));
 	else
 		return (0);
-}
+} */
