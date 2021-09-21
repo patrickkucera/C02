@@ -6,7 +6,7 @@
 /*   By: pakucera <pakucera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 19:28:02 by pakucera          #+#    #+#             */
-/*   Updated: 2021/09/18 22:34:38 by pakucera         ###   ########.fr       */
+/*   Updated: 2021/09/21 03:57:51 by pakucera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ char	*ft_strcapitalize(char *str)
 		}
 		else if (str[i] >= '0' && str[i] <= '9')
 			start = 0;
-		else if (str[i] >= 96 && str[i] <= 122)
+		else if (str[i] >= 97 && str[i] <= 122)
 			start = 0;
 		else
 			start = 1;
